@@ -210,3 +210,45 @@ body{
     cursor: pointer;
     animation: btn-two 2s infinite ease-in-out;
 }
+
+.podcast-section{
+    height: 646px;
+}
+.podcast-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pod-titile{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+#hr{
+    max-width: 1200px;
+    height: 0px;
+    opacity: 10%;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: #FFFFFF;
+}
+.podcast-card{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 80px;
+}
+.card{
+    width: 240px;
+    height: 94px;
+    text-align: center;
+}
+.card-titile{
+    font-size: 3rem;
+    color: #00FF88;
+    font-weight: 800;
+}
+
