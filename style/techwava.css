@@ -80,3 +80,133 @@ body{
     background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 }
 
+.banner-section{
+    background-image: url("../image/hero-bg.png");
+    justify-content: center;
+    height: 760px;
+}
+.banner-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 558px;
+    margin-top: 80px;
+}
+.paraphrase-descriton{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 4px;
+    opacity: 80%;
+}
+
+.image-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 351px;
+}
+.circle-img{
+    width: 100%;
+}
+.mic-img{
+    position: absolute;
+}
+@keyframes animation-img {
+    0% {
+        transform: scale(1) rotate(4deg);
+    }
+    50% {
+        transform: scale(1.05) rotate(-4deg);
+    }
+    100% {
+        transform: scale(1) rotate(4deg);
+    }
+}
+
+
+.img-btn{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 200px;
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    border-radius: 10000px;
+    border: none;
+    font-size: 1.20rem;
+    color: #1A0B2E;
+    font-weight: 600;
+    padding: 8px 16px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    
+}
+
+.banner-contant{
+    text-align: center;
+}
+.banner-titile{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+@keyframes btn-one {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes btn-two {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-one:hover{
+    animation-play-state: paused;
+}
+.btn-two:hover{
+    background-color: #FB09B4;
+    animation-play-state: paused;
+}
+.btn-one{
+   width: 201px;
+   height: 44px;
+   font-size: 1rem;
+   font-weight: 500px;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 10000px;
+   background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+   margin-top: 24px;
+   cursor: pointer;
+   animation: btn-one 2s infinite ease-in-out;
+}
+
+.btn-two{
+    width: 147px;
+    height: 44px;
+    background-color: transparent;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    font-size: 1.10rem;
+    margin-top: 24px;
+    font-weight: 600px;
+    margin-left: 9px;
+    cursor: pointer;
+    animation: btn-two 2s infinite ease-in-out;
+}
